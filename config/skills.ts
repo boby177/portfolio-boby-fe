@@ -78,13 +78,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 4,
     icon: Icons.html5,
   },
-  {
-    name: "CSS 3",
-    description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
-    icon: Icons.css3,
-  },
+  // {
+  //   name: "CSS 3",
+  //   description:
+  //     "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+  //   rating: 4,
+  //   icon: Icons.css3,
+  // },
   {
     name: "React Native",
     description:
@@ -128,13 +128,13 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 5,
     icon: Icons.tailwindcss,
   },
-  {
-    name: "AWS",
-    description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
-  },
+  // {
+  //   name: "AWS",
+  //   description:
+  //     "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
+  //   rating: 3,
+  //   icon: Icons.amazonaws,
+  // },
   {
     name: "Bootstrap",
     description:

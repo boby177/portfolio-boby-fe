@@ -1,10 +1,10 @@
 export const siteConfig = {
-  name: "Naman Barkiya - Applied AI Engineer",
-  authorName: "Naman Barkiya",
-  username: "namanbarkiya",
+  name: "Boby Maulana - Software Engineer",
+  authorName: "Boby Maulana",
+  username: "bobymaulana",
   description:
-    "Naman Barkiya - Applied AI Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
-  url: "https://nbarkiya.xyz",
+    "Boby Maulana - Software Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
+  url: "https://bobymaulana.xyz",
   links: {
     twitter: "https://x.com/namanbarkiya",
     github: "https://github.com/namanbarkiya",
@@ -17,8 +17,8 @@ export const siteConfig = {
   logoIcon:
     "https://res.cloudinary.com/dbfvcn3f6/image/upload/v1692357294/assets/naman-logo.png",
   keywords: [
-    "Naman Barkiya",
-    "Applied AI Engineer",
+    "Boby Maulana",
+    "Software Engineer",
     "AI Engineer",
     "Software Engineer",
     "Full Stack Developer",
