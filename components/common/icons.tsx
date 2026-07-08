@@ -67,6 +67,18 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiX,
+  SiCodeigniter,
+  SiLaravel,
+  SiSpringboot,
+  SiPhp,
+  SiSqlite,
+  SiPostgresql,
+  SiGooglecloud,
+  SiGithub,
+  SiPrisma,
+  SiTypeorm,
+  SiDocker,
+  SiFirebase,
 } from "react-icons/si";
 
 export const Icons = {
@@ -130,6 +142,18 @@ export const Icons = {
   // linkedin: SiLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
+  codeigniter: SiCodeigniter,
+  laravel: SiLaravel,
+  springboot: SiSpringboot,
+  php: SiPhp,
+  sqlite: SiSqlite,
+  postgresql: SiPostgresql,
+  googlecloud: SiGooglecloud,
+  github: SiGithub,
+  prisma: SiPrisma,
+  typeorm: SiTypeorm,
+  docker: SiDocker,
+  firebase: SiFirebase,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

@@ -9,41 +9,6 @@ export interface skillsInterface {
 
 export const skillsUnsorted: skillsInterface[] = [
   {
-    name: "Next.js",
-    description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
-    rating: 5,
-    icon: Icons.nextjs,
-  },
-  {
-    name: "React",
-    description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-    rating: 5,
-    icon: Icons.react,
-  },
-  {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
     name: "Node.js",
     description:
       "Run JavaScript on the server side, enabling dynamic and responsive applications.",
@@ -51,11 +16,59 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.nodejs,
   },
   {
-    name: "MongoDB",
+    name: "Express.js",
     description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
+      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
     rating: 5,
-    icon: Icons.mongodb,
+    icon: Icons.express,
+  },
+  {
+    name: "Nest.js",
+    description:
+      "Create scalable and modular applications with a progressive Node.js framework.",
+    rating: 5,
+    icon: Icons.nestjs,
+  },
+  {
+    name: "Code Igniter",
+    description:
+      "Develop web applications rapidly with a lightweight PHP framework that emphasizes simplicity and performance.",
+    rating: 5,
+    icon: Icons.codeigniter,
+  },
+  {
+    name: "Laravel",
+    description:
+      "Build modern web applications with elegant syntax and powerful features using a PHP framework.",
+    rating: 3,
+    icon: Icons.laravel,
+  },
+  {
+    name: "Spring Boot",
+    description:
+      "Simplify the creation of stand-alone, production-grade Spring-based applications.",
+    rating: 1,
+    icon: Icons.springboot,
+  },
+  {
+    name: "Next.js",
+    description:
+      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+    rating: 4,
+    icon: Icons.nextjs,
+  },
+  {
+    name: "React",
+    description:
+      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
+    rating: 4,
+    icon: Icons.react,
+  },
+  {
+    name: "GraphQL",
+    description: "Design and build APIs using Apollo Server and GraphQL Yoga.",
+    rating: 3,
+    icon: Icons.graphql,
   },
   {
     name: "Typescript",
@@ -72,60 +85,17 @@ export const skillsUnsorted: skillsInterface[] = [
     icon: Icons.javascript,
   },
   {
-    name: "HTML 5",
+    name: "PHP",
     description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
-    icon: Icons.html5,
+      "Build dynamic web applications and server-side scripts with a widely-used scripting language.",
+    rating: 5,
+    icon: Icons.php,
   },
-  // {
-  //   name: "CSS 3",
-  //   description:
-  //     "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-  //   rating: 4,
-  //   icon: Icons.css3,
-  // },
-  {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
-    icon: Icons.react,
-  },
-  {
-    name: "Angular",
-    description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
-  },
-  {
-    name: "Redux",
-    description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
-  },
-  {
-    name: "Socket.io",
-    description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
-  },
-  {
-    name: "Material UI",
-    description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
-  },
-
   {
     name: "Tailwind CSS",
     description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
-    rating: 5,
+      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
+    rating: 3,
     icon: Icons.tailwindcss,
   },
   // {
@@ -136,25 +106,65 @@ export const skillsUnsorted: skillsInterface[] = [
   //   icon: Icons.amazonaws,
   // },
   {
-    name: "Bootstrap",
+    name: "Google Cloud Platform",
     description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
+      "Manage cloud storage buckets and implement Google login integration.",
+    rating: 3,
+    icon: Icons.googlecloud,
   },
   {
     name: "MySQL",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
+    rating: 5,
     icon: Icons.mysql,
   },
   {
-    name: "Netlify",
+    name: "PostgreSQL",
+    description:
+      "Manage and organize relational databases efficiently for data-driven applications.",
+    rating: 5,
+    icon: Icons.postgresql,
+  },
+  {
+    name: "SQL Server",
     description:
       "Manage and organize relational databases efficiently for data-driven applications.",
     rating: 4,
-    icon: Icons.netlify,
+    icon: Icons.sqlite,
+  },
+  {
+    name: "GitHub",
+    description:
+      "Manage and organize code repositories efficiently for collaborative software development.",
+    rating: 5,
+    icon: Icons.github,
+  },
+  {
+    name: "Prisma",
+    description:
+      "Simplify database access and management with a modern ORM for Node.js and TypeScript.",
+    rating: 5,
+    icon: Icons.prisma,
+  },
+  {
+    name: "TypeORM",
+    description:
+      "A TypeScript-based ORM for Node.js and TypeScript, supporting both Active Record and Data Mapper patterns.",
+    rating: 4,
+    icon: Icons.typeorm,
+  },
+  {
+    name: "Docker",
+    description: "Configure basic containers within CI/CD pipelines.",
+    rating: 2,
+    icon: Icons.docker,
+  },
+  {
+    name: "Firebase",
+    description: "Build real-time data sync features into applications.",
+    rating: 3,
+    icon: Icons.firebase,
   },
 ];
 
