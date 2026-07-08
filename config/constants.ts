@@ -60,7 +60,18 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "CodeIgniter"
+  | "SQL Server"
+  | "Stored Procedures"
+  | "JQuery"
+  | "Ajax"
+  | "Apollo Server"
+  | "TypeORM"
+  | "Swagger"
+  | "GCP Bucket"
+  | "Agile Methodology"
+  | "Dashboard Development"
+  | "AWS S3";
 
 export type ValidCategory =
   | "Full Stack"
