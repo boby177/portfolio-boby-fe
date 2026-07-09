@@ -71,6 +71,12 @@ export type ValidSkills =
   | "GCP Bucket"
   | "Agile Methodology"
   | "Dashboard Development"
+  | "Remote Desktop"
+  | "IT Support"
+  | "JEST"
+  | "JWT"
+  | "Microservices"
+  | "Bootstrap"
   | "AWS S3";
 
 export type ValidCategory =
