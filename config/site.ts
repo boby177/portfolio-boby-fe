@@ -1,13 +1,13 @@
 export const siteConfig = {
   name: "Boby Maulana - Software Engineer",
   authorName: "Boby Maulana",
-  username: "bobymaulana",
+  username: "boby177",
   description:
     "Boby Maulana - Software Engineer working at the intersection of AI, data, and scalable software systems. Explore my projects, experience, and contributions in software development and AI.",
   url: "https://bobymaulana.xyz",
   links: {
-    twitter: "https://x.com/namanbarkiya",
-    github: "https://github.com/namanbarkiya",
+    twitter: "https://x.com/bobymaulana",
+    github: "https://github.com/boby177",
     templateRepo: "https://github.com/namanbarkiya/minimal-next-portfolio",
   },
   ogImage:
