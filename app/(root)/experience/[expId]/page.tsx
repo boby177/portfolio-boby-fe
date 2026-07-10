@@ -24,15 +24,23 @@ const getYearFromDate = (date: Date): string => {
   return new Date(date).getFullYear().toString();
 };
 
+// Helper function to extract month from date
+const getMonthFromDate = (date: Date): string => {
+  return new Date(date).toLocaleString("default", { month: "long" });
+};
+
 // Helper function to get duration text
 const getDurationText = (
   startDate: Date,
   endDate: Date | "Present"
 ): string => {
   const startYear = getYearFromDate(startDate);
+  const startMonth = getMonthFromDate(startDate);
   const endYear =
     typeof endDate === "string" ? "Present" : getYearFromDate(endDate);
-  return `${startYear} - ${endYear}`;
+  const endMonth =
+    typeof endDate === "string" ? "" : getMonthFromDate(endDate);
+  return `${startMonth} ${startYear} - ${endMonth} ${endYear}`;
 };
 
 export async function generateMetadata({
