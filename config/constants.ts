@@ -77,6 +77,10 @@ export type ValidSkills =
   | "JWT"
   | "Microservices"
   | "Bootstrap"
+  | "Sequelize"
+  | "Chart.js"
+  | "Arduino"
+  | "Raspberry Pi"
   | "AWS S3";
 
 export type ValidCategory =
@@ -87,6 +91,7 @@ export type ValidCategory =
   | "Web Dev"
   | "Mobile Dev"
   | "3D Modeling"
+  | "IoT"
   | "Support";
 
 export type ValidExpType = "Personal" | "Professional";
