@@ -99,7 +99,7 @@ export const experiences: ExperienceInterface[] = [
     logo: "/experience/wgs-logo.png",
   },
   {
-    id: "builtdesign",
+    id: "lipi",
     position: "Internship",
     company: "Research Center for Informatics, LIPI",
     location: "Bandung, Indonesia",
@@ -126,7 +126,7 @@ export const experiences: ExperienceInterface[] = [
       "Firebase",
       "Dashboard Development",
     ],
-    companyUrl: "https://builtdesign.in",
+    companyUrl: "https://lipi.or.id",
     logo: "/experience/lipi-logo.png",
   },
 ];
