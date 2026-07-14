@@ -18,14 +18,14 @@ export const SocialLinks: SocialInterface[] = [
     name: "LinkedIn",
     username: "Boby Maulana",
     icon: Icons.linkedin,
-    link: "https://www.linkedin.com/in/boby177",
+    link: "https://www.linkedin.com/in/bobyms177",
   },
-  // {
-  //   name: "Twitter",
-  //   username: "@boby177",
-  //   icon: Icons.twitter,
-  //   link: "https://twitter.com/boby177",
-  // },
+  {
+    name: "Wantedly",
+    username: "@boby177",
+    icon: Icons.wantedly,
+    link: "https://www.wantedly.com/id/boby177",
+  },
   {
     name: "Gmail",
     username: "boby.ms378",

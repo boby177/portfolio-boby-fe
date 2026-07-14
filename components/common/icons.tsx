@@ -36,7 +36,7 @@ import {
 } from "lucide-react";
 import { AiFillStar } from "react-icons/ai";
 import { BiLaugh, BiSolidUser } from "react-icons/bi";
-import { BsInfoCircle, BsQuestionCircle } from "react-icons/bs";
+import { BsInfoCircle, BsLinkedin, BsQuestionCircle } from "react-icons/bs";
 import {
   HiBriefcase,
   HiOutlineExternalLink,
@@ -80,6 +80,8 @@ import {
   SiDocker,
   SiFirebase,
   SiLinksys,
+  SiInstagram,
+  SiWantedly,
 } from "react-icons/si";
 
 export const Icons = {
@@ -140,7 +142,7 @@ export const Icons = {
   typescript: SiTypescript,
   gmail: SiGmail,
   twitter: SiX,
-  linkedin: SiLinksys,
+  linkedin: BsLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
   codeigniter: SiCodeigniter,
@@ -155,6 +157,7 @@ export const Icons = {
   typeorm: SiTypeorm,
   docker: SiDocker,
   firebase: SiFirebase,
+  wantedly: SiWantedly,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"
