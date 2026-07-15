@@ -21,7 +21,7 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
           </MainNav>
           <nav className="flex items-center gap-5">
             {/* <GitHubStarBadge /> */}
-            {/* <ModeToggle /> */}
+            <ModeToggle />
           </nav>
         </div>
       </header>
