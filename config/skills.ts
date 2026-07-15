@@ -166,6 +166,18 @@ export const skillsUnsorted: skillsInterface[] = [
     rating: 3,
     icon: Icons.firebase,
   },
+  {
+    name: "Amazon Web Services (AWS)",
+    description: "Set up static file storage using S3 for application assets.",
+    rating: 2,
+    icon: Icons.aws,
+  },
+  {
+    name: "Java",
+    description: "Basic understanding of syntax and OOP concepts.",
+    rating: 2,
+    icon: Icons.java,
+  },
 ];
 
 export const skills = skillsUnsorted

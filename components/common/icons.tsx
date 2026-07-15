@@ -34,8 +34,8 @@ import {
   X,
   Zap,
 } from "lucide-react";
-import { AiFillStar } from "react-icons/ai";
-import { BiLaugh, BiSolidUser } from "react-icons/bi";
+import { AiFillStar, AiOutlineAmazon, AiOutlineJava } from "react-icons/ai";
+import { BiLaugh, BiLogoFirebase, BiLogoJava, BiSolidUser } from "react-icons/bi";
 import { BsInfoCircle, BsLinkedin, BsQuestionCircle } from "react-icons/bs";
 import {
   HiBriefcase,
@@ -47,12 +47,18 @@ import {
   // SiAmazonwebservices,
   SiAngular,
   SiBootstrap,
+  SiCodeigniter,
+  SiDocker,
   // SiCss3,
   SiExpress,
+  SiFirebase,
+  SiGithub,
   SiGmail,
+  SiGooglecloud,
   SiGraphql,
   SiHtml5,
   SiJavascript,
+  SiLaravel,
   // SiLinkedin,
   SiMongodb,
   SiMui,
@@ -61,27 +67,19 @@ import {
   SiNetlify,
   SiNextdotjs,
   SiNodedotjs,
+  SiPhp,
+  SiPostgresql,
+  SiPrisma,
   SiReact,
   SiRedux,
   SiSocketdotio,
-  SiTailwindcss,
-  SiTypescript,
-  SiX,
-  SiCodeigniter,
-  SiLaravel,
   SiSpringboot,
-  SiPhp,
   SiSqlite,
-  SiPostgresql,
-  SiGooglecloud,
-  SiGithub,
-  SiPrisma,
+  SiTailwindcss,
   SiTypeorm,
-  SiDocker,
-  SiFirebase,
-  SiLinksys,
-  SiInstagram,
+  SiTypescript,
   SiWantedly,
+  SiX,
 } from "react-icons/si";
 
 export const Icons = {
@@ -156,8 +154,10 @@ export const Icons = {
   prisma: SiPrisma,
   typeorm: SiTypeorm,
   docker: SiDocker,
-  firebase: SiFirebase,
+  firebase: BiLogoFirebase,
   wantedly: SiWantedly,
+  aws: AiOutlineAmazon,
+  java: BiLogoJava,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

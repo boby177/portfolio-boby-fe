@@ -30,7 +30,7 @@ export interface ProjectInterface {
 export const Projects: ProjectInterface[] = [
   {
     id: "cbms",
-    companyName: "CBMS (Cikarang Behandle Management System)",
+    companyName: "Cikarang Behandle Management System",
     type: "Professional",
     category: ["Web Dev", "Full Stack"],
     shortDescription:
@@ -73,7 +73,7 @@ export const Projects: ProjectInterface[] = [
   },
   {
     id: "doss",
-    companyName: "DOSS (Dry Port One Stop Service System)",
+    companyName: "Dry Port One Stop Service System",
     type: "Professional",
     category: ["Web Dev", "Full Stack", "Support"],
     shortDescription:

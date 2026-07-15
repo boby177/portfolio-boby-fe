@@ -53,7 +53,7 @@ export const experiences: ExperienceInterface[] = [
   },
   {
     id: "wgs",
-    position: "Website Developer",
+    position: "Web Developer",
     company: "Walden Global Service",
     location: "Bandung, Indonesia",
     startDate: new Date("2022-03-01"),
